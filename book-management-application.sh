@@ -1,11 +1,12 @@
 #! /bin/bash
 declare -a BOOKS
+i=0
 echo
 add_book()
 {
   read -p "Enter name of the book to add : " NEW_BOOK_NAME
-  len=${#BOOKS[@]}
-  BOOKS[$len]=$NEW_BOOK_NAME
+  BOOKS[$i]=$NEW_BOOK_NAME
+  let i++
   echo "New Book $NEW_BOOK_NAME Added Sucessfully..."
   echo "-------------------------------------------------"
   echo "All Available Books Are : ${BOOKS[@]}"
