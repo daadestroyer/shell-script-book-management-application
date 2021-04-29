@@ -67,6 +67,15 @@ do
         list)
             list_book
             ;;
-            
+        exit)
+            echo "-------------------------------------------------"
+            echo "Thank You for using our application , Visit Again ..."
+            echo "-------------------------------------------------"
+            exit 0
+            ;;
+        *)
+            echo "-------------------------------------------------"
+            echo "Wrong Option , Try Again ..."
+            echo "-------------------------------------------------"
     esac
 done  

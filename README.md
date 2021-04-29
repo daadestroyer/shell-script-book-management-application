@@ -19,3 +19,8 @@ Using arrays we can store our book application
 
 # 4. List all books module
 ![4](https://user-images.githubusercontent.com/48306820/116521341-7b0d8380-a8f1-11eb-9a70-ef935b962422.png)
+
+# 4. Exit Module 
+![5](https://user-images.githubusercontent.com/48306820/116521957-3e8e5780-a8f2-11eb-9868-d2d1da4caf49.png)
+
+# 4. Wrong Choice module
