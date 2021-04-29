@@ -2,8 +2,7 @@
 declare -a BOOKS
 i=0
 echo
-add_book()
-{
+add_book(){
   read -p "Enter name of the book to add : " NEW_BOOK_NAME
   BOOKS[$i]=$NEW_BOOK_NAME
   let i++
@@ -12,8 +11,7 @@ add_book()
   echo "All Available Books Are : ${BOOKS[@]}"
   echo "-------------------------------------------------"
 }
-delete_book()
-{
+delete_book(){
   read -p "Enter name of the book to delete : " BOOK_TO_DELETE
   AVAILABLITY="no"
   for index in ${!BOOKS[@]} # this will provide available index
@@ -46,6 +44,10 @@ do
             ;;
         delete)
             delete_book
+            ;;
+        list)
+            list_book
+            ;;
             
     esac
 done  
